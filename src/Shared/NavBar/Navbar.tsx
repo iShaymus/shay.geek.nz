@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className="nav-links">
                 <p>About</p>
                 <p>Apps</p>
-                <p>Privacy</p>
+                <p>Photography</p>
             </div>
             
 
