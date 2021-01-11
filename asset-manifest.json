@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shay.geek.nz/static/css/main.b59ba93d.chunk.css",
+    "main.js": "/shay.geek.nz/static/js/main.519d8102.chunk.js",
+    "main.js.map": "/shay.geek.nz/static/js/main.519d8102.chunk.js.map",
+    "runtime-main.js": "/shay.geek.nz/static/js/runtime-main.ecbadda4.js",
+    "runtime-main.js.map": "/shay.geek.nz/static/js/runtime-main.ecbadda4.js.map",
+    "static/js/2.6a015a19.chunk.js": "/shay.geek.nz/static/js/2.6a015a19.chunk.js",
+    "static/js/2.6a015a19.chunk.js.map": "/shay.geek.nz/static/js/2.6a015a19.chunk.js.map",
+    "static/js/3.efc69891.chunk.js": "/shay.geek.nz/static/js/3.efc69891.chunk.js",
+    "static/js/3.efc69891.chunk.js.map": "/shay.geek.nz/static/js/3.efc69891.chunk.js.map",
+    "index.html": "/shay.geek.nz/index.html",
+    "static/css/main.b59ba93d.chunk.css.map": "/shay.geek.nz/static/css/main.b59ba93d.chunk.css.map",
+    "static/js/2.6a015a19.chunk.js.LICENSE.txt": "/shay.geek.nz/static/js/2.6a015a19.chunk.js.LICENSE.txt",
+    "static/media/shay.f6b4fd20.jpg": "/shay.geek.nz/static/media/shay.f6b4fd20.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ecbadda4.js",
+    "static/js/2.6a015a19.chunk.js",
+    "static/css/main.b59ba93d.chunk.css",
+    "static/js/main.519d8102.chunk.js"
+  ]
+}
