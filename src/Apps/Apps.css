@@ -1,0 +1,11 @@
+.app-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .app-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

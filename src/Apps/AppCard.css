@@ -1,0 +1,13 @@
+.app-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-icon {
+    object-fit: contain;
+}
