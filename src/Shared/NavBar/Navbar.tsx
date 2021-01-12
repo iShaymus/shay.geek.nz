@@ -1,28 +1,27 @@
 import React from 'react';
 import './Navbar.css';
-import me from './shay.jpg';
-import { Badge } from '../Social Media Badges/Badge';
-
-
+import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
     return (
-        <header className="bg-dark side-nav text-dark">
-            <img src={me} className="profilePic" alt="shay"/>
-            <span className="title"><span className="theme-green">Shay</span><span className="theme-pink">.Geek</span></span>
+        <nav className="bg-dark main-nav text-dark">
+            <NavLink to="/">
+                <span className="title"><span className="theme-green">Shay</span><span className="theme-pink">.Geek</span></span>
+            </NavLink>
             
             <div className="nav-links">
-                <p>About</p>
-                <p>Apps</p>
-                <p>Photography</p>
+                <ul>
+                    <li>
+                        <NavLink className="nav-link" to="/about">ABOUT</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className="nav-link" to="/apps">APPS</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className="nav-link" to="/photography">PHOTOS</NavLink>
+                    </li>
+                </ul>
             </div>
-            
-
-            <div className="social-media">
-                <Badge url="https://twitter.com/shay_geek_nz" icon={['fab', 'twitter']}/>
-                <Badge url="https://instagram.com/ishaymus" icon={['fab', 'instagram']}/>
-                <Badge url="https://github.io/iShaymus" icon={['fab', 'github']}/>
-            </div>
-        </header>
+        </nav>
     )
 }
